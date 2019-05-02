@@ -52,3 +52,32 @@ Se puede observar a continuación que es posible dividir las grillas entre filas
     </div>
 </div>
 ```
+
+SI se asignan un espacio de columna de 3 y otro de 10, la de 10 la pone de bajo, y no en la misma fila
+```
+<div class="col-3">
+    3 espacios
+</div>
+<div class="col-10">
+    10 espacios
+</div>
+```
+
+Ella hace una ubicación inteligente entre 12 espacios, si se sobrepasa, se baja de la fila.
+
+* Se puede decir que ocupe cierto tamaño, para ciertos tamaños de pantallas:
+Aqui se está diciendo que ocupe 12 para cualquier tamaño, y que para grandes ocupe 3 y 9.
+```
+<div class="col-12 col-lg-3" style="background:green">
+    3 
+</div>
+<div class="col-12 col-lg-9"  style="background:blue">
+    5
+</div>
+```
+
+Los breakpoint de tamaños son:  
+- .col-sm :  >= 576px
+- .col-md :  >= 768px
+- .col-lg :  >= 992px
+- .col-xl :  >= 1200px
