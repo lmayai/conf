@@ -89,3 +89,9 @@ pt-4 padding top
 ```
 <footer id="footer" class="pb-4 pt-4">
 ```
+
+#### NAVBAR
+Barra de navegación
+
+#### MARGIN
+mr-auto
