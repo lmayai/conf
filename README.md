@@ -81,3 +81,5 @@ Los breakpoint de tamaños son:
 - .col-md :  >= 768px
 - .col-lg :  >= 992px
 - .col-xl :  >= 1200px
+
+* Para el sitio de platzi conf 
