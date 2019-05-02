@@ -82,4 +82,10 @@ Los breakpoint de tamaños son:
 - .col-lg :  >= 992px
 - .col-xl :  >= 1200px
 
-* Para el sitio de platzi conf 
+#### PADDING 
+Clases que se le ponen a los elementos para darles padding
+pb-4: padding bottom
+pt-4 padding top
+```
+<footer id="footer" class="pb-4 pt-4">
+```
