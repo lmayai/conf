@@ -18,7 +18,7 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 ### GRILLA (Layout)
 Los containers son los componentes básicos para usar grillas
 Se crea un div con la clase container
-```
+```html
 <div class="container">
   <!-- Content here -->
 </div>
@@ -31,7 +31,7 @@ Cada div con filas .row tiene como máxima 12 columnas, excepto si se modifica.
 Cada col tiene su espacio, donde se divide el espacio equitativamente.
 
 Se puede observar a continuación que es posible dividir las grillas entre filas y columnas de cada fila. Inicialmente la división se hace en 12 columnas. 
-```
+```html
 <div class="row">
     <div class="col">
         1-1
@@ -54,7 +54,7 @@ Se puede observar a continuación que es posible dividir las grillas entre filas
 ```
 
 SI se asignan un espacio de columna de 3 y otro de 10, la de 10 la pone de bajo, y no en la misma fila
-```
+```html
 <div class="col-3">
     3 espacios
 </div>
@@ -67,7 +67,7 @@ Ella hace una ubicación inteligente entre 12 espacios, si se sobrepasa, se baja
 
 * Se puede decir que ocupe cierto tamaño, para ciertos tamaños de pantallas:
 Aqui se está diciendo que ocupe 12 para cualquier tamaño, y que para grandes ocupe 3 y 9.
-```
+```html
 <div class="col-12 col-lg-3" style="background:green">
     3 
 </div>
@@ -86,7 +86,7 @@ Los breakpoint de tamaños son:
 Clases que se le ponen a los elementos para darles padding
 pb-4: padding bottom
 pt-4 padding top
-```
+``` html
 <footer id="footer" class="pb-4 pt-4">
 ```
 
