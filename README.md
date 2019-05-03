@@ -112,8 +112,10 @@ Sirve para cualquier tamaño
 #### Cards
 COntenedores con múltiples variables
 
-
-
+#### Badges
+Estos son pequeños textos mostrados.
+Los cuales son un span con texto al que se le aplica un estilo.
+.badge .badge-secondary
 
 
 
