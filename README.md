@@ -84,8 +84,8 @@ Los breakpoint de tamaños son:
 
 #### PADDING 
 Clases que se le ponen a los elementos para darles padding
-pb-4: padding bottom
-pt-4 padding top
+.pb-4: padding bottom
+.pt-4 padding top
 ``` html
 <footer id="footer" class="pb-4 pt-4">
 ```
@@ -94,9 +94,23 @@ pt-4 padding top
 Barra de navegación
 
 #### MARGIN
-mr-auto
+.mr-auto
 
 #### DISPLAYS
-d-none: para no mostrarla
-d-md-block: Block para tamaños medianos
+.d-none: para no mostrarla
+.d-md-block: Block para tamaños medianos
 Sirve para cualquier tamaño
+
+#### Alineación
+.text-center
+.text-left
+-text-md-left (Se puede definir para tamaños)
+
+#### Buttons
+
+
+
+
+
+
+

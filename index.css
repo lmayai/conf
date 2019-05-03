@@ -31,6 +31,16 @@ header img{
    height: 100%;
 }
 
+#carousel .overlay .btn-success{
+    background-color:#97c93e;
+    border:0;
+}
+
+#carousel .overlay .btn-success:hover{
+    background-color:#657a40;
+    border:0;
+}
+
 #footer{
     background: #263E4C;
 }
