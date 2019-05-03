@@ -41,6 +41,15 @@ header img{
     border:0;
 }
 
+#place-time {
+    background-color: #343A3F;
+    color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
 #footer{
     background: #263E4C;
 }

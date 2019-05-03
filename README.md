@@ -117,5 +117,7 @@ Estos son pequeños textos mostrados.
 Los cuales son un span con texto al que se le aplica un estilo.
 .badge .badge-secondary
 
-
+#### Contenedor fluidos
+Contenedores con ancho completo
+.container-fluid
 
