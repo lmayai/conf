@@ -95,3 +95,8 @@ Barra de navegación
 
 #### MARGIN
 mr-auto
+
+#### DISPLAYS
+d-none: para no mostrarla
+d-md-block: Block para tamaños medianos
+Sirve para cualquier tamaño
