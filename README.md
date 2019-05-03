@@ -107,7 +107,10 @@ Sirve para cualquier tamaño
 -text-md-left (Se puede definir para tamaños)
 
 #### Buttons
+.btn btn-success
 
+#### Cards
+COntenedores con múltiples variables
 
 
 
