@@ -123,3 +123,13 @@ Los cuales son un span con texto al que se le aplica un estilo.
 Contenedores con ancho completo
 .container-fluid
 
+#### Formularios
+.form-row: Tipo de formulario
+.form-control: Hace parte de un mismo formulario
+
+#### Tooltip
+Cuando se quiere explicar algo mas de una palabra o un detalle sobre una palabra.
+Con el tag abbr
+```html
+<abbr title="attribute">attr</abbr>
+```
