@@ -142,5 +142,8 @@ Debe usarse en un nav o list-group.
 Requeire position relative
 EL menú donde esta el nav debe tener la calse sticky
 ```html
-<div data-spy="scroll" data-target="#navbar"></div>
+<div data-spy="scroll" data-target="#navbar" data-offset="0"></div>
 ```
+
+#### Modal
+Ventanas emergentes

@@ -41,7 +41,7 @@
                             <a class="nav-link" href="#ser-speaker">Conviertete en speaker</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-platzi" href="#">Compra de tickets</a>
+                            <a class="nav-link text-platzi" data-toggle="modal" data-target="#modal-compra" href="#">Compra de tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@
                                     A pasar buenísimo!
                                 </p>
                                 <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                                <button class="btn btn-success" type="button">Comprar tickets</button>
+                                <button class="btn btn-success" data-toggle="modal" data-target="#modal-compra" type="button">Comprar tickets</button>
                             </div>
                         </div>
                     </div>
@@ -254,6 +254,43 @@
         </div>
     </footer>
     <!-- footer/ -->
+
+    <!-- Modal -->
+    <div id="modal-compra" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibirás un correo de confirmación si eres seleccionado
+                    </div>      
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

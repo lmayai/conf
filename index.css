@@ -31,7 +31,8 @@ header img{
    height: 100%;
 }
 
-#carousel .overlay .btn-success{
+#carousel .overlay .btn-success,
+.modal-footer .btn-primary{
     background-color:#97c93e;
     border:0;
 }
