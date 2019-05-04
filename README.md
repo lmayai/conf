@@ -133,3 +133,14 @@ Con el tag abbr
 ```html
 <abbr title="attribute">attr</abbr>
 ```
+
+#### Scrollspy
+Con esto se conoce la ubicación del usuario en el sitio, para poder iluminar ciertas características.
+Si el usuario se encuentra en alguna sesión, con este se ilumina la seccion que se está leyendo en el header.
+https://getbootstrap.com/docs/4.1/components/scrollspy/
+Debe usarse en un nav o list-group.
+Requeire position relative
+EL menú donde esta el nav debe tener la calse sticky
+```html
+<div data-spy="scroll" data-target="#navbar"></div>
+```

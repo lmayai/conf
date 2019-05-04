@@ -11,11 +11,11 @@
     <title>Hello, world!</title>
    <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-to-spy" data-offset="57">
 
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/platzi-logo.png" alt="Platzi Logo">
@@ -26,19 +26,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
         
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbar-to-spy">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">La conferencia</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">La conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Los speakers</a>
+                            <a class="nav-link" href="#speakers">Los speakers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                            <a class="nav-link" href="#place-time">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Conviertete en speaker</a>
+                            <a class="nav-link" href="#ser-speaker">Conviertete en speaker</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-platzi" href="#">Compra de tickets</a>
@@ -180,7 +180,7 @@
 
     <!-- Coviertete en speaker -->
     <!-- /Coviertete en speaker -->
-    <div class="ser-speaker pt-4 pb-5">
+    <div id="ser-speaker" class="pt-4 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col text-uppercase text-center">
